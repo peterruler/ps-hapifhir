@@ -12,8 +12,8 @@ or pass this env params suiting your save gmail account pw in your PAAS Service.
 
 # Demo
 
-- https://ps-hapifhir-v2.vercel.app
-- https://vercel.com/peterruler/ps-hapifhir-v2
+- https://ps-hapifhir.vercel.app
+- https://vercel.com/peterruler/ps-hapifhir
 
 ## Fully working app consists of the following
  - Hapi FHIR server both docker and zhaw server running on port 8080 first
