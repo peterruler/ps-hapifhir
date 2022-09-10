@@ -1,0 +1,5 @@
+{
+    "base_uri" : "https://hapi.fhir.org/baseR4/",
+    "base_uri_node" : "https://ps-hapifhir.herokuapp.com/",
+    "port" : ""
+}
