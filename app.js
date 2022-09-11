@@ -45,7 +45,7 @@ let sendWarning = (req) => {
     from: 'peter.strossler@gmail.com',
     to: req.query.email,
     subject: "Covid Warnung  - Fake for testing purpose",
-    html: "<doctype html><html><head><meta charset='utf-8'/><title>Covid Warnung - Fake for testing purpose</title></head><body><h4>Fake for testing purpose - Covid Warnung</h4><b>Aufgrund der von Ihnen angegebenen Daten bitten wir Sie sich baldmöglichst testen zu lassen!</b><b>Absender: https://ps-hapifhir.herokuapp.com/ Keine Haftung, bei Misbrauch des Dienstes.</b></body></html>", // html body
+    html: "<doctype html><html><head><meta charset='utf-8'/><title>Covid Warnung - Fake for testing purpose</title></head><body><h4>Fake for testing purpose - Covid Warnung</h4><b>Aufgrund der von Ihnen angegebenen Daten bitten wir Sie sich baldmöglichst testen zu lassen!</b><b>Absender: https://ps-hapifhir.vercel.app/ Keine Haftung, bei Misbrauch des Dienstes.</b></body></html>", // html body
   };
 
   transporter.sendMail(mailOptions, function (error, info) {
