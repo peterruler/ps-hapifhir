@@ -1,5 +1,5 @@
 {
     "base_uri" : "https://hapi.fhir.org/baseR4/",
-    "base_uri_node" : "https://ps-hapifhir.vercel.app/",
+    "base_uri_node" : "http://ps-hapifhir.vercel.app/",
     "port" : ""
 }
